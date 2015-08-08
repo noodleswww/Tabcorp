@@ -1,0 +1,44 @@
+{
+  "name": "Tabcorp",
+  "version": "1.0.0",
+  "description": "tabcorp",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "lib"
+      ],
+      "data-cover-never": [
+        "node_modules",
+        "tests"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "mocha test/*.js",
+    "start": "node betting.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noodleswww/Tabcorp.git"
+  },
+  "keywords": [
+    "tabcorp",
+    "bet",
+    "punter",
+    "horse"
+  ],
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "should": "^6.0.3"
+  },
+  "author": "noodles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noodleswww/Tabcorp/issues"
+  },
+  "homepage": "https://github.com/noodleswww/Tabcorp"
+}
