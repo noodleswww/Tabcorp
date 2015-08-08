@@ -4,26 +4,26 @@ These data can be collected via the 'stdin', or you can custom the test data,
 and quickly see the results via the 'stdout'.
 
 ```
-1. `$ npm install` 安装 Tabcorp 的依赖包
-2. `cp config.js` 请根据需要修改配置文件
-3. `$ npm test` 确保各项测试都正常
+1. `$ npm install` install 'Tabcorp' dependent package
+2. `cp config.js` modify configuration file
+3. `$ npm test` make sure tesing
 4. `$ node betting.js/npm start`
 ```
 
-## 测试
+## Constructions
 
-跑测试
+Tesing
 
 ```bash
 $ npm test
 $ mocha test
 ```
 
-跑覆盖率测试
+js-coverage
 
 ```bash
 $ mocha --require blanket -R html-cov > coverage.html
-覆盖率文件设定到了当前目录的coverage.html
+the file coverage.html to show results
 ```
 
 debugger
@@ -61,7 +61,7 @@ tc.generatePlace(function (data) {
 ## api
 the exception in api do not capture, so if use inappropriate data ,it may cause unexpected output exception.
 
-## 贡献
+## Contribution
 
 
 ## License
