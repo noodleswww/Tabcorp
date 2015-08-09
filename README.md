@@ -42,6 +42,15 @@ using [travis-ci](https://travis-ci.org) require to configure via github
 ## Quick Examples
 
 ```javascript
+var obj = Event();
+obj.listen('xx',function(data){
+     //data
+});
+obj.one('xx',function(data){
+    //data
+});
+obj.remove('xx');
+obj.trigger('xx','');
 var tc = new Tabcorp(arrData);
 var rtnData = tc.generateWin();
 tc.generateWin(function (data) {

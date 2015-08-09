@@ -1,5 +1,6 @@
 var config = {
 
+    debug: true,
     //limit your input time
     //After the timeout, you will not be able to continue the input,
     // and then you will see the results of the output
