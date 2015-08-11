@@ -17,6 +17,7 @@ Tesing
 ```bash
 $ npm test
 $ mocha test
+$ grunt mochaTest
 ```
 
 js-coverage
@@ -34,9 +35,10 @@ $ node --debug betting.js / node --debug-brk betting.js
 $ node-inspcetor
 ```
 
-travis
+[travis](https://travis-ci.org)
+
 ```
-using [travis-ci](https://travis-ci.org) require to configure via github
+using travis-ci require to configure via github
 ```
 
 ## Quick Examples

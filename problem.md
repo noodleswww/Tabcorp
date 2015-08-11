@@ -17,7 +17,7 @@ The only guideline we have is that your code
 - reads data from `stdin` and outputs to `stdout`
 - can demonstrably produce the expected output
 
-## Building a betting host¡¾bet¶Ä²©£¬´ò¶Ä£¬ÏÂ¶Ä×¢¡¿
+## Building a betting host
 
 You have been asked to write a program to calculate the dividends for a
 simplified form of [Tote betting](http://en.wikipedia.org/wiki/Parimutuel_betting)
